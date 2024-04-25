@@ -48,8 +48,7 @@ pub enum WaveReaderError {
 
 impl WaveReader {
     pub fn open_pcm(file_path: &str) -> Result <PCMWaveInfo, WaveReaderError> {
-        todo!();
-    }
+        todo!(); //Gawin mo to
 
     fn read_riff_chunk(fh: &mut File) -> Result <RiffChunk, WaveReaderError> {
         todo!();
